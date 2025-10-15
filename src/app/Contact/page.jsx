@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <div className="w-full h-full bg-[#191919] ">
       <div className="w-full h-full pt-30">
-        {/* <Marquee /> */}
+        <Marquee />
         <div className="text-white w-full h-full pb-[2%] overflow-hidden bg-[#181818] pt-15">
       
           <div className="flex flex-col sm:flex-col md:flex-row xl:flex-row  lg:flex-row 2xl:flex-row gap-[1%] justify-between">
