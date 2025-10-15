@@ -78,7 +78,7 @@ const Section3Dnew = () => {
       <section className="relative w-full h-screen">
         <ContentSection />
         <div ref={sceneRef} className="w-full h-full">
-          <Suspense fallback={<div className="w-full h-full bg-gray-800" />}>
+          
             <Canvas
               style={{ width: "100%", height: "100%" }}
               frameloop="demand"
@@ -86,7 +86,7 @@ const Section3Dnew = () => {
             >
               <Scene progress={progress} modelRef={modelRef} scale={[1, 1, 1]} />
             </Canvas>
-          </Suspense>
+          
         </div>
       </section>
 
